@@ -1,2 +1,14 @@
-# pulse-review
-Develop a script to scrape product reviews from G2 and Capterra for a specific company and time period. Your script should be able to accept a company name, start date, end date, and source as inputs, and output a JSON file containing the reviews. For bonus points, identify and integrate a third source for SaaS app reviews
+# Pulse Coding Assignment – SaaS Review Scraper
+
+## Overview
+Python script to scrape SaaS product reviews from G2 and Capterra and export them as JSON.
+
+## Setup
+pip install -r requirements.txt
+
+## Usage
+python review_scraper.py --company slack --source g2 --start_date 2023-01-01 --end_date 2023-12-31
+
+## Notes
+Scraping is best-effort due to anti-bot protections on review platforms.
+
